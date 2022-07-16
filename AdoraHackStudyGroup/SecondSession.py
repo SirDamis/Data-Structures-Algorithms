@@ -55,7 +55,7 @@ def shortestDistance(plane, r1, c1, r2, c2, current_dist=0):
     # Obstacles  or Visited Check
     if plane[r1][c1] == -1 or plane[r1][c1] == 1:
         return (len(plane) * len(plane[0])) + 1
-        return -1
+
 
     # Visited to 1
     plane[r1][c1] = 1
