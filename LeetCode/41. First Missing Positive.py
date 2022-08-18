@@ -5,6 +5,7 @@ class Solution:
         for i in range(len(nums)):
             if nums[i] < 0:
                 nums[i] = 0
+
         initial = 0
         for i in range(0, len(nums)):
             if nums[i] == 0 :
